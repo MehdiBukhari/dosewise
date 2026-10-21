@@ -17,6 +17,7 @@ That answer is not a model's memory. It is a `tools/call` to `check_drug_interac
 ibuprofen, and returns the quote plus a DailyMed link.
 
 ▶ **[Watch the 2:45 demo](https://youtu.be/9unoEjs57KY)** — recorded from the running app, MCP traffic panel on screen.
+🏆 **[Devpost submission](https://devpost.com/software/dosewise-vy8ns7)** — Build, Ship, Shape: Amazon Developer Hackathon, **Alexa+** track, Open Source mini-challenge.
 
 ---
 

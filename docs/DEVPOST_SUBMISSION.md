@@ -1,7 +1,10 @@
-# Devpost submission — paste-ready
+# Devpost submission — as submitted
 
-Everything below is written to be copied into the Devpost form. Replace the two `TODO` links after the repo
-and video are published.
+**Status: submitted** on 21 Oct 2026 → <https://devpost.com/software/dosewise-vy8ns7>
+
+The text below is what went into the form (the project story, tagline, track and mini-challenge). The
+additional-info answers — submitter details, per-API feedback, testing instructions, AI-tool disclosure —
+are summarised at the bottom. The project stays editable until the deadline.
 
 ---
 
@@ -153,6 +156,29 @@ The full list, with severity and "what would have removed it", is in `docs/FRICT
 `docs/PRODUCT_FEEDBACK.md` — feedback on the MCP TypeScript SDK v2, the MCP spec, RxNorm/RxNav, openFDA,
 DailyMed, Amazon Bedrock Converse (including an explicit note that it was not exercised without credentials),
 and the Web Speech API.
+
+---
+
+# What went into Additional info (as submitted)
+
+| Field | Answer |
+| --- | --- |
+| Submitter type / country | Individual · Pakistan |
+| Track | **Alexa+** |
+| New or existing project | New (first commit dated 20 Oct 2026) |
+| AWS Builder Mini Challenge | No — Open Source Mini Challenge only |
+| Open Source | Yes · repo, contribution URL, GitHub username `MehdiBukhari` |
+| Testing instructions | `npm install && npm start` → `127.0.0.1:8787`, demo tokens, `DEMO_CLOCK=09:40` |
+| Per-API feedback (5 questions) | Condensed from `docs/PRODUCT_FEEDBACK.md` |
+| Feature requests | openFDA field selection, RxNorm single-call normalise, MCP v2 migration guide + context reference, approval/unverified semantics, Bedrock offline emulator |
+| Friction log | `docs/FRICTION_LOG.md` (linked) |
+| AI-tool disclosure | AI coding agent used for implementation and docs; unexecuted capabilities labelled as such |
+
+## Known gaps (fixable until the deadline)
+
+- No custom **thumbnail** on the project page (Devpost shows its default social icon). `demo/thumbnail.png`
+  is prepared at 1200×800 if wanted.
+- No project **gallery images**. The video embed carries the visual story.
 
 ---
 

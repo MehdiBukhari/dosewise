@@ -174,12 +174,12 @@ and the Web Speech API.
 | Friction log | `docs/FRICTION_LOG.md` (linked) |
 | AI-tool disclosure | AI coding agent used for implementation and docs; unexecuted capabilities labelled as such |
 
-## Known gaps (fixable until the deadline)
+## Assets (live)
 
-- **Thumbnail: set** (3:2, 333×222 on the card). `demo/thumbnail.png` is the 1200×800 source.
-- No project **gallery images** yet. Devpost's gallery input only opens through a native file picker, so it
-  needs a manual drag: `demo/gallery-1-safety.png` and `demo/gallery-2-confirm.png`. The video embed already
-  carries the visual story.
+- **Thumbnail:** 3:2 card, shown on the gallery card and as the social image.
+- **Gallery:** two stills with captions — *the ibuprofen safety card with the quoted label + DailyMed link* and
+  *the propose → confirm → applied moment*. Sources: `demo/thumbnail.png`, `demo/gallery-1-safety.png`,
+  `demo/gallery-2-confirm.png`.
 
 ---
 

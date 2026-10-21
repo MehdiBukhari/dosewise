@@ -275,6 +275,8 @@ label-grounded MCP server can sit behind a voice experience.
 
 Built for **Build, Ship, Shape: Amazon Developer Hackathon** — Alexa+ track.
 
+Repo: <https://github.com/MehdiBukhari/dosewise>
+
 - Track requirement met in code: self-hosted MCP server, Streamable HTTP transport, MCP spec 2026-07-28
   (the SDK's current era; satisfies "2025-11-25 or later").
 - Mini challenge: **Open Source** — MIT-licensed new project.

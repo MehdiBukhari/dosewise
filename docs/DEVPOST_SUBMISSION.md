@@ -20,11 +20,7 @@ A self-hosted MCP server that answers a caregiver's medication questions with qu
 ## Mini challenge
 
 **Open Source** — new MIT-licensed public project, built entirely during the hackathon window.
-
-> Optional second entry: **AWS Builder** — Amazon Bedrock Converse is integrated
-> (`src/agent/bedrock.ts`, documented in `docs/ARCHITECTURE.md` § **Agent modes**). It is **not** claimed as a
-> submission strength because this build machine had no AWS credentials, so the recorded demo ran in the
-> labelled scripted mode. Include it only if you are comfortable defending a path you could not execute.
+Repo: <https://github.com/MehdiBukhari/dosewise>
 
 ---
 
@@ -147,7 +143,7 @@ The full list, with severity and "what would have removed it", is in `docs/FRICT
 
 ## Try it out
 
-- Repo: `TODO — public GitHub URL`
+- Repo: <https://github.com/MehdiBukhari/dosewise>
 - Video: `TODO — public YouTube/Vimeo URL (under 3 minutes, English)`
 - Run locally: `npm install && npm start` → <http://127.0.0.1:8787>
 - MCP endpoint: `http://127.0.0.1:8787/mcp` with `Authorization: Bearer dana-caregiver-demo-token`
@@ -184,7 +180,7 @@ and the Web Speech API.
 ## Devpost form
 
 - [ ] Track: **Alexa+**
-- [ ] Mini challenge: **Open Source** (add **AWS Builder** only with the credential caveat)
+- [ ] Mini challenge: **Open Source**
 - [ ] Repo URL + video URL
 - [ ] "Built with" tags
 - [ ] Product feedback included (link or pasted)

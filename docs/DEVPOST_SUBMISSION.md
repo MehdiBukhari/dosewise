@@ -176,9 +176,10 @@ and the Web Speech API.
 
 ## Known gaps (fixable until the deadline)
 
-- No custom **thumbnail** on the project page (Devpost shows its default social icon). `demo/thumbnail.png`
-  is prepared at 1200×800 if wanted.
-- No project **gallery images**. The video embed carries the visual story.
+- **Thumbnail: set** (3:2, 333×222 on the card). `demo/thumbnail.png` is the 1200×800 source.
+- No project **gallery images** yet. Devpost's gallery input only opens through a native file picker, so it
+  needs a manual drag: `demo/gallery-1-safety.png` and `demo/gallery-2-confirm.png`. The video embed already
+  carries the visual story.
 
 ---
 

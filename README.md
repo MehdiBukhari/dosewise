@@ -16,6 +16,8 @@ That answer is not a model's memory. It is a `tools/call` to `check_drug_interac
 "ibuprofen" through RxNorm, pulls the current warfarin label from openFDA, finds the sentence that mentions
 ibuprofen, and returns the quote plus a DailyMed link.
 
+▶ **[Watch the 2:45 demo](demo/dosewise-demo.mp4)** — recorded from the running app, MCP traffic panel on screen.
+
 ---
 
 ## Why this exists
@@ -274,6 +276,24 @@ label-grounded MCP server can sit behind a voice experience.
 ## Hackathon
 
 Built for **Build, Ship, Shape: Amazon Developer Hackathon** — Alexa+ track.
+
+## Demo video
+
+[`demo/dosewise-demo.mp4`](demo/dosewise-demo.mp4) — 2:45, 1440×810, 25 fps.
+
+The recording is reproducible rather than hand-edited:
+
+```powershell
+npm run demo:timeline   # synthesise the narration, measure it, write demo/plan.json
+npm run demo:record     # start a clean server, drive Chrome with Playwright, capture video
+npm run demo:assemble   # place each voice line at its planned timestamp, encode MP4
+```
+
+Every voice line is synthesised (Windows SAPI: Hazel narrates, Zira is Alexa) and every visual is the real
+application — the tool calls, the timings in the traffic panel, and the label quotes are what the server
+actually returned while recording. The "scripted demo agent · no cloud credentials" badge stays on screen
+because there were no AWS credentials on the recording machine; `src/agent/bedrock.ts` is the unexercised
+alternative path.
 
 Repo: <https://github.com/MehdiBukhari/dosewise>
 

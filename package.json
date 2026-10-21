@@ -13,7 +13,11 @@
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "node --import tsx --test tests/*.test.ts",
-    "smoke": "tsx tests/mcp-smoke.ts"
+    "smoke": "tsx tests/mcp-smoke.ts",
+    "demo:timeline": "node scripts/build-demo-timeline.mjs",
+    "demo:record": "node scripts/record-demo.mjs",
+    "demo:assemble": "node scripts/assemble-video.mjs",
+    "demo": "npm run demo:timeline && npm run demo:record && npm run demo:assemble"
   },
   "dependencies": {
     "@aws-sdk/client-bedrock-runtime": "^3.900.0",
@@ -27,6 +31,7 @@
     "@modelcontextprotocol/client": "^2.0.0",
     "@types/express": "^5.0.0",
     "@types/node": "^24.0.0",
+    "playwright-core": "^1.64.1",
     "tsx": "^4.20.0",
     "typescript": "^5.9.0"
   }

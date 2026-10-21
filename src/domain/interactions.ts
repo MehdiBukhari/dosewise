@@ -133,8 +133,17 @@ export function extractQuote(sectionText: string, terms: string[]): { quote: str
   if (sentence.length <= 300 && commaCount <= 8) return { quote: sentence.trim(), matchedTerm: match.term };
 
   // Drug tables flatten into enormous "sentences"; show a readable window instead.
-  const start = Math.max(0, match.index - 140);
-  const end = Math.min(text.length, match.index + 180);
+  // Snap the window to word boundaries so a quote never starts or ends mid-word.
+  let start = Math.max(0, match.index - 140);
+  if (start > 0) {
+    const space = text.indexOf(' ', start);
+    if (space !== -1 && space < match.index) start = space + 1;
+  }
+  let end = Math.min(text.length, match.index + 180);
+  if (end < text.length) {
+    const space = text.lastIndexOf(' ', end);
+    if (space > match.index + match.term.length) end = space;
+  }
   return {
     quote: `${start > 0 ? '…' : ''}${text.slice(start, end).trim()}${end < text.length ? '…' : ''}`,
     matchedTerm: match.term,

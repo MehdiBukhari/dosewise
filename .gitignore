@@ -4,3 +4,9 @@ data/db.json
 .env
 *.log
 .DS_Store
+demo/raw/
+demo/frames/
+demo/voice/
+demo/tmp-db.json
+demo/demo-silent.webm
+demo/demo-mix.wav

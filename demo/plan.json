@@ -1,0 +1,134 @@
+{
+  "totalMs": 167927,
+  "lines": [
+    {
+      "id": "n1",
+      "voice": "narrator",
+      "start": 4900,
+      "durationMs": 11626,
+      "text": "It's nine at night. Your mother has a headache, and you're holding a bottle of Advil, wondering if it's safe with her blood thinner. The answer is in the label."
+    },
+    {
+      "id": "n2",
+      "voice": "narrator",
+      "start": 17576,
+      "durationMs": 11751,
+      "text": "Dosewise is a self hosted M C P server for Alexa Plus. It owns the household’s medication record, and answers with quoted label text."
+    },
+    {
+      "id": "a1",
+      "voice": "alexa",
+      "start": 30327,
+      "durationMs": 11123,
+      "text": "Three of six doses logged today. Omeprazole, metoprolol succinate, metformin were logged as taken. Next up is Warfarin at 6 P M."
+    },
+    {
+      "id": "n3",
+      "voice": "narrator",
+      "start": 42200,
+      "durationMs": 10611,
+      "text": "That’s a tool call to get adherence summary, over Streamable H T T P. Every answer here has a matching call in the panel on the right."
+    },
+    {
+      "id": "a2",
+      "voice": "alexa",
+      "start": 53811,
+      "durationMs": 15157,
+      "text": "I would hold off on ibuprofen. N S A I Ds add bleeding risk on top of anticoagulation. The Warfarin label names it under drug interactions. Call Doctor Iris Chen’s office before you give her anything for this."
+    },
+    {
+      "id": "n4",
+      "voice": "narrator",
+      "start": 69718,
+      "durationMs": 18879,
+      "text": "Three calls. RxNorm normalised Advil to ibuprofen. Open F D A returned the warfarin label. And the server found the sentence naming ibuprofen inside a flattened table, quoted it, with an effective date and a DailyMed link."
+    },
+    {
+      "id": "n5",
+      "voice": "narrator",
+      "start": 89647,
+      "durationMs": 11001,
+      "text": "It also filtered a boilerplate cross reference, and a sentence saying these two drugs do not affect each other. Not found is never reported as safe."
+    },
+    {
+      "id": "a3",
+      "voice": "alexa",
+      "start": 101648,
+      "durationMs": 10578,
+      "text": "Add Acetaminophen five hundred milligrams as needed. Nothing flagged against her current medications. Say confirm, and I will add it to her record."
+    },
+    {
+      "id": "n6",
+      "voice": "narrator",
+      "start": 112976,
+      "durationMs": 11776,
+      "text": "The model cannot confirm its own proposal. Propose mints a single use token, hashed at rest, bound to this caregiver, valid for ten minutes."
+    },
+    {
+      "id": "a4",
+      "voice": "alexa",
+      "start": 125752,
+      "durationMs": 3319,
+      "text": "Done. It is on her record now."
+    },
+    {
+      "id": "n7",
+      "voice": "narrator",
+      "start": 129821,
+      "durationMs": 12326,
+      "text": "Replaying it fails, and a different caregiver cannot redeem it. Scopes are enforced inside each tool handler. A different token simply cannot write."
+    },
+    {
+      "id": "a5",
+      "voice": "alexa",
+      "start": 143147,
+      "durationMs": 6154,
+      "text": "This token is missing the dose wise write scope. Ask the account owner for access."
+    },
+    {
+      "id": "n8",
+      "voice": "narrator",
+      "start": 150051,
+      "durationMs": 14726,
+      "text": "Nine tools, five resources, two prompts. TypeScript, M I T, one JSON file, no cloud account. It makes the label readable, at the moment someone is scared."
+    }
+  ],
+  "actions": [
+    {
+      "at": 0,
+      "action": "idle"
+    },
+    {
+      "at": 27827,
+      "action": "ask-adherence"
+    },
+    {
+      "at": 51311,
+      "action": "ask-ibuprofen"
+    },
+    {
+      "at": 70168,
+      "action": "show-safety-card"
+    },
+    {
+      "at": 99148,
+      "action": "ask-add"
+    },
+    {
+      "at": 123552,
+      "action": "confirm-change"
+    },
+    {
+      "at": 140147,
+      "action": "switch-viewer"
+    },
+    {
+      "at": 141947,
+      "action": "ask-aspirin"
+    },
+    {
+      "at": 150801,
+      "action": "end-card"
+    }
+  ]
+}

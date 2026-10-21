@@ -144,7 +144,8 @@ The full list, with severity and "what would have removed it", is in `docs/FRICT
 ## Try it out
 
 - Repo: <https://github.com/MehdiBukhari/dosewise>
-- Video: `TODO — public YouTube/Vimeo URL (under 3 minutes, English)`
+- Video: <https://github.com/MehdiBukhari/dosewise/blob/main/demo/dosewise-demo.mp4> (2:45, English, 1440×810)
+  — replace with the public YouTube/Vimeo URL once uploaded; the file in the repo is the same cut.
 - Run locally: `npm install && npm start` → <http://127.0.0.1:8787>
 - MCP endpoint: `http://127.0.0.1:8787/mcp` with `Authorization: Bearer dana-caregiver-demo-token`
 

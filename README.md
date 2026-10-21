@@ -16,7 +16,7 @@ That answer is not a model's memory. It is a `tools/call` to `check_drug_interac
 "ibuprofen" through RxNorm, pulls the current warfarin label from openFDA, finds the sentence that mentions
 ibuprofen, and returns the quote plus a DailyMed link.
 
-▶ **[Watch the 2:45 demo](demo/dosewise-demo.mp4)** — recorded from the running app, MCP traffic panel on screen.
+▶ **[Watch the 2:45 demo](https://youtu.be/9unoEjs57KY)** — recorded from the running app, MCP traffic panel on screen.
 
 ---
 
@@ -279,7 +279,7 @@ Built for **Build, Ship, Shape: Amazon Developer Hackathon** — Alexa+ track.
 
 ## Demo video
 
-[`demo/dosewise-demo.mp4`](demo/dosewise-demo.mp4) — 2:45, 1440×810, 25 fps.
+[`demo/dosewise-demo.mp4`](demo/dosewise-demo.mp4) — 2:45, 1440×810, 25 fps. Published at <https://youtu.be/9unoEjs57KY>.
 
 The recording is reproducible rather than hand-edited:
 

@@ -1,10 +1,10 @@
 # Demo video script — 2:45, one take if possible
 
-> **Status:** the submitted cut already exists — [`demo/dosewise-demo.mp4`](../demo/dosewise-demo.mp4),
-> 2:45, 1440×810. It was produced with `npm run demo` (timeline → Playwright recording → audio assembly),
-> so the narration and Alexa voice are synthesised rather than human. This document remains the human
-> version of the same beats if you want to re-record with your own voice: same order, same on-screen
-> moments, same claims.
+> **Status:** the submitted cut is published — <https://youtu.be/9unoEjs57KY>, 2:46, 1440×810. The source file is
+> [`demo/dosewise-demo.mp4`](../demo/dosewise-demo.mp4), produced with `npm run demo` (timeline → Playwright
+> recording → audio assembly), so the narration and Alexa voice are synthesised rather than human. This document
+> remains the human version of the same beats if you want to re-record with your own voice: same order, same
+> on-screen moments, same claims.
 
 **Goal of the video:** a judge who has never heard of MCP should understand, in under three minutes, that
 this is a real protocol server answering a real safety question with real FDA text — and that it refuses to
